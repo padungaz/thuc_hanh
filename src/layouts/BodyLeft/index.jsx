@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import moment from 'moment';
-// import moment from 'moment';
-// import 'react-datetime/css/react-datetime.css';
+import './style.scss';
+
 
 const BodyLeft = ({ addTodo, listTodo }) => {
     const [valueInput, setValueInput] = useState('');

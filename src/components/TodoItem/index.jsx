@@ -1,3 +1,5 @@
+import './style.scss';
+
 const TodoItem = (props) => {
   const { todo, deleteTodo } = props;
 

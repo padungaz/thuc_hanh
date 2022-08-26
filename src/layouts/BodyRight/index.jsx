@@ -1,5 +1,6 @@
 import React from "react";
-import TodoItem from "../components/TodoItem";
+import TodoItem from "../../components/TodoItem";
+import './style.scss';
 
 const BodyRight = ({ listTodo, deleteTodo }) => {
   const renderItems = () => {

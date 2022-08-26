@@ -1,5 +1,5 @@
-import './App.css';
-import BodyLeft from './layouts/BodyLeft.jsx'
+import './App.scss';
+import BodyLeft from './layouts/BodyLeft/index.jsx'
 import BodyRight from './layouts/BodyRight';
 import { useEffect, useState } from 'react';
 import moment from 'moment';

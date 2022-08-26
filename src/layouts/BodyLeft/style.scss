@@ -1,0 +1,45 @@
+.body__left {
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+
+  .body__left--content {
+    display: inline-block;
+    label {
+      margin-left: -8px;
+    }
+    input {
+      margin-left: 10px;
+      border-radius: 5px;
+      width: 250px;
+      height: 25px;
+    }
+  }
+
+  .body__left-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    .body__left--date {
+      display: inline-block;
+      label {
+        margin-left: 36px;
+        input {
+          margin-left: 9px;
+          border-radius: 5px;
+          width: 150px;
+          height: 25px;
+        }
+      }
+    }
+
+    .body__left--btn {
+      margin-right: 49px;
+      height: 25px;
+      border-radius: 5px;
+      background: #000000d6;
+      color: white;
+      font-weight: 500;
+    }
+  }
+}
