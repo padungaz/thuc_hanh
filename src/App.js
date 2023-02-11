@@ -4,6 +4,7 @@ import BodyRight from './layouts/BodyRight';
 import { useEffect, useState } from 'react';
 import moment from 'moment';
 import Test from './layouts/Test';
+import Test1 from './layouts/Test1';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <BodyLeft addTodo={addTodo} listTodo={listTodo} />
         <BodyRight listTodo={listTodo} deleteTodo={deleteTodo} />
         <Test listTodo={listTodo} deleteTodo={deleteTodo} />
+        <Test1 listTodo={listTodo} deleteTodo={deleteTodo} />
       </div>
 
     </div>

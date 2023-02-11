@@ -2,7 +2,7 @@ import React from "react";
 import TodoItem from "../../components/TodoItem";
 import './style.scss';
 
-const Test = ({ listTodo, deleteTodo }) => {
+const Test1 = ({ listTodo, deleteTodo }) => {
   const renderItems = () => {
     return listTodo.map((todo, index) => {
       return <TodoItem key={index} todo={todo} deleteTodo={deleteTodo} />;
@@ -12,12 +12,8 @@ const Test = ({ listTodo, deleteTodo }) => {
   return (
     <div className="body__right">
       {renderItems()}
-      <div>
-        add texxt
-        
-      </div>
     </div>
   );
 };
 
-export default Test;
+export default Test1;
