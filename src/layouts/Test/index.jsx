@@ -13,8 +13,10 @@ const Test = ({ listTodo, deleteTodo }) => {
     <div className="body__right">
       {renderItems()}
       <div>
-        add texxt
-        
+       fsdfgsd
+       <div>
+        dfsdfgd
+       </div>
       </div>
     </div>
   );
