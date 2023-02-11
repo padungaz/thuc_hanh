@@ -3,6 +3,7 @@ import BodyLeft from './layouts/BodyLeft/index.jsx'
 import BodyRight from './layouts/BodyRight';
 import { useEffect, useState } from 'react';
 import moment from 'moment';
+import Test from './layouts/Test';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
       <div className="body">
         <BodyLeft addTodo={addTodo} listTodo={listTodo} />
         <BodyRight listTodo={listTodo} deleteTodo={deleteTodo} />
+        <Test listTodo={listTodo} deleteTodo={deleteTodo} />
       </div>
 
     </div>
